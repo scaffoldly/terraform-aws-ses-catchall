@@ -16,7 +16,7 @@ module "catchall_live" {
   read_only_principals = data.aws_iam_role.serverless_emails_api.arn
   domains              = ["emails.mydomain.com"]
   rule_set_name        = "primary"
-  after                = "live-bounce-noreply"
+  after_rule           = "live-bounce-noreply"
 }
 ```
 
