@@ -37,7 +37,7 @@ module "catchall_live" {
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_s3_bucket"></a> [s3\_bucket](#module\_s3\_bucket) | scaffoldly/s3-private-versioned/aws | 0.15.4 |
+| <a name="module_s3_bucket"></a> [s3\_bucket](#module\_s3\_bucket) | scaffoldly/s3-private-versioned/aws | 0.15.5 |
 
 ## Resources
 
