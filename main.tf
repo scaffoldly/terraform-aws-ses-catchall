@@ -1,6 +1,6 @@
 module "s3_bucket" {
   source  = "scaffoldly/s3-private-versioned/aws"
-  version = "0.15.6"
+  version = "0.15.7"
 
   bucket_name_prefix = var.bucket_name_prefix
 
